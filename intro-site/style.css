@@ -5,8 +5,8 @@ body {
 }
 
 p {
-  font-family: "Gill Sans MT Pro Book", sans-serif;
-  color: #4b0082;
+  font-family: serif;
+  color: #7b27a2;
   width: 500px;
   font-size: 17px;
   word-spacing: 2px;
@@ -19,8 +19,7 @@ h1 {
   text-align: right;
   width: 500px;
   font-size: 36px;
-  padding-top: 140px;
-  margin-bottom: 10px;
+  padding-top: 100px;
 }
 
 h2 {
@@ -35,22 +34,19 @@ h3 {
 }
 
 ol {
-  color: #1c39bb;
+  color: #9370db;
   width: 420px;
   font-size: 16px;
-  list-style-type: disc;
-  font-family: "Gill Sans MT Pro Book", sans-serif;
 }
 
 ul {
-  color: #1c39bb;
+  color: #9370db;
   width: 500px;
   font-size: 16px;
-  font-family: "Gill Sans MT Pro Book", sans-serif;
 }
 
 img{
-  width: 200px;
+  width: 150px;
   float: left;
 }
 
@@ -71,23 +67,18 @@ a:hover {
 .fauxnav {
   float: right;
   list-style-type: none;
-  margin: 58px 70px 0px 0px;
+  margin: 170px 60px 0px 0px;
   padding: 0px;
 }
 
 .vinea {
   width: 140px;
-  padding-top: 15px 20px 0px 0px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   float: right;
 }
 
 .vineb {
   width: 400px;
   padding-top: 15px;
-  margin-bottom: 170px;
-  height: 50px;
-}
-
-.rules {
-  color: #1c39bb;
 }
