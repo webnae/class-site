@@ -1,3 +1,29 @@
 body {
-  background-color: pink;
+  background-color: #ffa3d1;
+  font-family: Chistoso, sans-serif;
+}
+
+h1 {
+  color: #fbf4cc;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: #FCEBFA;
+}
+
+ol {
+  font-family: "Gill Sans Display MT Pro Bold", sans-serif;
+}
+
+a {
+  color: #ee23a9;
+}
+
+a:hover {
+  color: #fbf4cc;
+}
+
+div {
+  padding-left: 350px;
 }
