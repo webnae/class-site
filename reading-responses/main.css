@@ -1,0 +1,39 @@
+body {
+  background-color: #ffa3d1;
+  font-family: Chistoso, sans-serif;
+}
+
+h1 {
+  color: #fbf4cc;
+  letter-spacing: 3px;
+}
+
+h2 {
+  color: #FCEBFA;
+  margin-left: 350px;
+}
+
+p {
+  font-family: "Gill Sans Display MT Pro Bold", sans-serif;
+  margin-left: 350px;
+}
+
+img {
+  border: 5px solid #FCEBFA;
+  width: 600px;
+  margin-left: 350px;
+}
+
+a {
+  color: #ee23a9;
+}
+
+a:hover {
+  color: #fbf4cc;
+}
+
+.reading {
+  font-family: "Gill Sans Display MT Pro Bold", sans-serif;
+  margin-left: 350px;
+  color: white;
+}
