@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #bbf5e7;
+}
+
+p {
+  margin: 50px 350px;
+  font-family: "Baskerville", serif;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.thing {
+  background: #e767d2;
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 350px;
+  right: 350px;
+  transition: all 1s ease;
+}
+
+.thing:hover {
+  border-radius: 0;
+  width: 100px;
+  height: 100px;
+  background: #4a8bfa;
+}
+
+.thing2 {
+  background: #fcfeae;
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+}
+
+.thing3 {
+  background: #897de8;
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+}
