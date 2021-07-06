@@ -12,18 +12,33 @@ h2 {
   color: #FCEBFA;
 }
 
-ol {
-  font-family: "Gill Sans Display MT Pro Bold", sans-serif;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.link {
+  background: #FCEBFA;
+  color: #ee23a9;
+  padding: 12px;
+  font-size: 1rem;
+  margin: 15px;
+}
+
+.link:hover {
+  background: #fbf4cc;
+}
+
+/* ol {
+  font-family: "Gill Sans Display MT Pro Bold", sans-serif;
+} */
 
 a {
   color: #ee23a9;
+  text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: #fbf4cc;
-}
-
-div {
-  padding-left: 350px;
-}
+} */
