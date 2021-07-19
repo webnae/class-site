@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: midnightblue;
+  color: white;
+  font-family: sans-serif;
+}
+
+.flex-container {
+  background: rebeccapurple;
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/* flex-flow is shorthand for both direction and wrap */
+
+.child {
+  background: royalblue;
+  width: 200px;
+  height: 70px;
+  margin: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  color: saddlebrown;
+  margin: 15px;
+}
+
+.box {
+  background: #f9ae8e;
+  font-size: 1.5rem;
+  font-family: "American Typewriter", serif;
+  max-width: 900px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  background: #9266ac;
+  width: 30%;
+  height: 200px;
+  margin: 6px;
+}
+
+@media screen and (max-width: 800px) {
+
+html {
+  font-size: 150%;
+}
+
+  body {
+    background: lightcyan;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

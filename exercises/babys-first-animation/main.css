@@ -1,0 +1,53 @@
+body {
+  background: black;
+}
+
+.circle {
+  background: salmon;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 50px auto;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.square {
+  background: deepskyblue;
+  width: 150px;
+  height: 150px;
+  margin: 100px auto;
+  animation: spin 1s infinite linear;
+}
+
+.zoomies {
+  background: #FFFF66;
+  width: 200px;
+  height: 75px;
+  animation: nyoom 3s infinite linear;
+}
+
+/* animation: name duration delay count direction timing; */
+
+@keyframes pulse {
+  0% {background: salmon; transform: scale(1);}
+  100% {background: red; transform: scale(1.5);}
+}
+
+@keyframes spin {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes nyoom {
+  0% {transform: translateX(-250px);}
+  40% {background: #FFFF66;}
+  50% {background: orange;}
+  60% {background: #FFFF66;}
+  100% {transform: translateX(100vw);}
+}
+
+/* vw is viewport width, always goes full length of screen */

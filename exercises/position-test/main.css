@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  background: lightyellow;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border: 7px dotted hotpink;
+  margin: 50px;
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+}
+
+.again {
+  background: orange;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px;
+  font-style: italic;
+  font-size: 75px;
+}
+
+.marquee {
+  width: 600px;
+  overflow: hidden;
+  border: 1px dotted #221980;
+}
+
+.marquee2 {
+  width: 600px;
+  overflow: hidden;
+  border: 1px dotted #221980;
+  float: right;
+}

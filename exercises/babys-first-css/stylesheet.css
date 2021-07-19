@@ -1,0 +1,54 @@
+p {
+  font-size: 44px;
+  color: green;
+  padding: 100px 130px 40px 30px;
+  border: 5px solid orange;
+  margin: 12px 20px;
+  border-radius: 20px;
+}
+/* top right bottom left */
+/* or top and bottom, left and right */
+/* can always b specific */
+
+h1 {
+  background: lime;
+}
+
+h2 {
+  border: 4px dotted lime;
+}
+
+a {
+  background-color: orange;
+  color: lime;
+}
+
+a:hover {
+  background: lime;
+  color: orange;
+}
+
+ol {
+  background-color: yellow;
+  font-size: 24px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+ul {
+  background-color: yellow;
+  font-size: 13px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+img {
+  border: 8px dotted lightblue;
+  width: 50%;
+}
+
+.greeting {
+  color: navy;
+  padding: 20px 20px;
+}
+/* classes are good for adding specificity */
